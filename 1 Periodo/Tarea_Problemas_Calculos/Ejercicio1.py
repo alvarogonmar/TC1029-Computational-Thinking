@@ -1,6 +1,7 @@
 #Ejercicio 1.- Escriba un programa que calcule el área de la superficie y el volumen de un cilindro.
 
-#Este programa lo que realizará es calcular el área de la superficie y el volumen de un cilindro, 
+#Este programa lo que realizará es calcular el área de la superficie y el volumen de un cilindro, conociendo el radio y la altura
+# podremos calcularlo mediante sus correspondientes formulas 
 
 import math
 
