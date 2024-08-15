@@ -6,7 +6,9 @@
 import math
 
 #Variables
-radio = 5
+
+
+radio = int(input('Ingrese el valor del radio: \r\n'))
 altura = radio*2
 math.pi
 

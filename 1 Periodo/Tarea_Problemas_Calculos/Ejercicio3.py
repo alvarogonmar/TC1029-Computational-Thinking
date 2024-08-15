@@ -4,8 +4,7 @@
 # en radianes mediante la fórmula
 
 import math
-
-grados = 560
+grados = int(input('Ingrese el valor en grados: \r\n'))
 radianes = (grados*math.pi)/180
 
 print(f'La cantidad de: {grados} grados en radianes es igual a: {radianes}')

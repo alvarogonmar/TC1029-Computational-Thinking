@@ -5,7 +5,7 @@
 
 import math
 
-radianes = 90
+radianes = int(input('Ingrese el valor en radianes: \r\n'))
 grados = (radianes*180)/math.pi
 
 print(f'La cantidad de: {radianes} radianes en grados es igual a: {round(grados, 2)}')
