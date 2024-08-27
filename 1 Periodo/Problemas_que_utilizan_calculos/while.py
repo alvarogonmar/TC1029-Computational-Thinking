@@ -61,9 +61,11 @@ while num >= 0:
 #ESTABLEZCA UNA VARIABLE LLAMADA TOTAL EN 0 PARA EMPEZAR. GENERE UN CICLO EN EL QUE MIENRAS TOTAL ES DE 50  O MENOS PIDA AL USUARIO
 #QUE INTRODUZCA UN NUMERO. SUME EL NUMERO INTRODUCIDO A TOTAL E IMPRIME EL MENSAJE. 'EL VALOR TOTAL' EL CICLO TERMINA CUANDO EL TOTAL SUPERE LOS 50
 
-total = 0
+'''total = 0
 
 while total <=50:
     numero = int(input('Introduzca un numero: '))
     total = total + numero
-    print(f'{total}')
+    print(f'{total}')'''
+
+
