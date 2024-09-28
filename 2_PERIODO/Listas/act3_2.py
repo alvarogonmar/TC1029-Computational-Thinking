@@ -18,8 +18,9 @@ while elem <= 0:
     elem = int(input('Numero de elementos que desea agregar a la lista: '))
 lista = []
 for i in range(elem):
-        num = int(input(f"Ingrese el elemento {i+1}: "))
+        num = int(input(f'Ingrese el elemento {i+1}: '))
         lista.append(num)
 lista.sort(reverse=True)
 for i in range(len(lista)):
-    print(f"lista[{i}] = {lista[i]}")
+    print(f'lista[{i}] = {lista[i]}')
+

@@ -13,7 +13,7 @@ while num != -1:
     lista.append(num)
     num = int(input('Ingrese los numeros para ponerlos en orden invertido(-1 para finalizar de poner): '))
 
-lista_invertida = lista[::-1]
+lista_inversa = lista[::-1]
 
-print('Lista original:', lista)
-print('Lista invertida:', lista_invertida)
+print(f'Lista original: {lista}')
+print(f'Lista en sentido inverso: {lista_inversa}')

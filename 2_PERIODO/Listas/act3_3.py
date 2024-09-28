@@ -24,7 +24,7 @@ while n <= 0:
     n = int(input('Numero de elementos que desea agregar a la lista: '))
 lista = []
 for i in range(n):
-        num = int(input(f"Ingrese el elemento {i+1}: "))
+        num = int(input(f'Ingrese el elemento {i+1}: '))
         lista.append(num)
 promedio = sum(lista) / len(lista)
 
