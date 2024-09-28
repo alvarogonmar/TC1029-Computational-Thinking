@@ -6,4 +6,17 @@
 # Un número entero positivo que corresponde al número de términos de la serie de Fibonacci que queremos en la lista. 
 # Si el dato recibido es menor que 0, se debe volver a solicitar
 
-elem = int(input('Ingrese la cantidad de elementos que desea en la lista: '))
+
+while True:
+    elem = int(input('Ingrese la cantidad de elementos que desea en la lista: '))
+    if elem < 0:
+        print('Escriba un numero mayor o igual a 0')
+        elem = int(input('Ingrese la cantidad de elementos que desea en la lista: '))
+    else:
+        fibonacci = []
+        a, b = 0, 1
+        for i in range(elem):
+            fibonacci.append(a)  
+            a, b = b, a + b 
+        print(f'La lista hasta el elemento {elem} es:\n {fibonacci}')
+        break
