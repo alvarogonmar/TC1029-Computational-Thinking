@@ -63,3 +63,7 @@ if not new_dir.exists():
 # new_dir = current / 'Carpeta nueva'
 new_file = new_dir / 'New_File.txt'
 new_file.touch() #make a new file
+
+# Iterar sobre el contenido de un directorio
+for item in current.iterdir():
+    print(item)
