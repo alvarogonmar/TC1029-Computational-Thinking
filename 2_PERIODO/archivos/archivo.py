@@ -24,3 +24,8 @@ print(f'El path nuevo formado es \n {path}')
 print(f'home: {home.name}')
 print(f'current: {current.name}')
 print(f'path: {path.name}')
+
+# Usando atributos de la clase:
+# atributo stem y suffix
+print(f'El nombre del archivo es {path.stem}')
+print(f'La extencion del archivo es: {path.suffix}')
