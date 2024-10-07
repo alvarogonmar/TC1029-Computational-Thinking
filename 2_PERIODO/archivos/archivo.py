@@ -45,8 +45,8 @@ ruta = (path.exists())
 print(f'La ruta indicada existe?: {ruta}')
 
 # Verificar si la rula se refiere a un archivo o a un directorio
-file = (path.is_file())
-print(f'El path apunta a un archivo?: {file}')
+file1 = (path.is_file())
+print(f'El path apunta a un archivo?: {file1}')
 
 directory = (current.is_dir())
 print(f'El objeto apunta a un directorio?: {directory}')
@@ -73,3 +73,10 @@ for item in current.iterdir():
 print(f'Usando el metodo glob()')
 for element in current.glob('*.txt'):
     print(element)
+
+# Escribir archivos
+content = 'dwijwdiwwpdwidwjdwiddwdnwidwdjwdijwidj'
+
+# with permite abrir el archivo y el solo lo cierra
+with open(new_file, 'w') as file:
+    file.write(content)
