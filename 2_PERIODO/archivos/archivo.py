@@ -67,3 +67,9 @@ new_file.touch() #make a new file
 # Iterar sobre el contenido de un directorio
 for item in current.iterdir():
     print(item)
+
+# Iterando sobre contenido especifico de un directorio
+
+print(f'Usando el metodo glob()')
+for element in current.glob('*.txt'):
+    print(element)
