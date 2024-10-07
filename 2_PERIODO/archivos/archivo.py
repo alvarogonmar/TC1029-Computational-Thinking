@@ -50,3 +50,7 @@ print(f'El path apunta a un archivo?: {file}')
 
 directory = (current.is_dir())
 print(f'El objeto apunta a un directorio?: {directory}')
+
+# Crear una nueva carpeta
+new_dir = current /'New_Folder'
+new_dir.mkdir(exist_ok= True)
