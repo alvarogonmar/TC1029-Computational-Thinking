@@ -5,7 +5,7 @@ path1 = pathlib.Path('/Users/alvarogonzalez/Documents/ITC/1_Primer_Semestre/1ER_
 print('El objeto Path: ')
 print(path1)
 
-# Usando los metodos Path.home() y Path.cwd()
+# Usando los metodos Path.home() y Path.cwd() (current working directory)
 home = pathlib.Path.home()
 print('El directorio home: ')
 print(home)
