@@ -15,7 +15,7 @@ print('El cwd es:')
 print(current)
 
 # Usando el operador diagonal
-path = current / 'ejemplo.txt'
+path = current / 'archivos' / 'ejemplo.txt'
 print(f'El path nuevo formado es \n {path}')
 
 # Usando atributos de la clase Path:
@@ -38,3 +38,8 @@ parents_Directory = list(path.parents)
 
 for element in parents_Directory:
     print(element)
+
+# Metodos sobre la clase Path
+# Usando el meodo exists
+ruta = (path.exists())
+print(f'La ruta indicada existe?: {ruta}')
