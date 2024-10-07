@@ -59,4 +59,7 @@ new_dir.mkdir(exist_ok= True)
 if not new_dir.exists():
     new_dir.mkdir()
 
-
+# Crear un nuevo archivo
+# new_dir = current / 'Carpeta nueva'
+new_file = new_dir / 'New_File.txt'
+new_file.touch() #make a new file
