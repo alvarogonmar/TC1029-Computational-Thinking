@@ -13,3 +13,7 @@ print(home)
 current = pathlib.Path.cwd()
 print('El cwd es:')
 print(current)
+
+# Usando el operador diagonal
+path = current / 'ejemplo.txt'
+print(f'El path nuevo formado es \n {path}')
