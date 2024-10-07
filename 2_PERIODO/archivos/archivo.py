@@ -43,3 +43,10 @@ for element in parents_Directory:
 # Usando el meodo exists
 ruta = (path.exists())
 print(f'La ruta indicada existe?: {ruta}')
+
+# Verificar si la rula se refiere a un archivo o a un directorio
+file = (path.is_file())
+print(f'El path apunta a un archivo?: {file}')
+
+directory = (current.is_dir())
+print(f'El objeto apunta a un directorio?: {directory}')
