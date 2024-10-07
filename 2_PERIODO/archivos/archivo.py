@@ -34,4 +34,7 @@ print(f'La extencion del archivo es: {path.suffix}')
 # Atributo parents:
 # Retorna una secuencia con los directorios padre del archivo
 parents_Directory = list(path.parents)
-print(f'Parents Directory: {parents_Directory}')
+# print(f'Parents Directory: {parents_Directory}')
+
+for element in parents_Directory:
+    print(element)
