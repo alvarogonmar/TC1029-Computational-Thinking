@@ -17,3 +17,10 @@ print(current)
 # Usando el operador diagonal
 path = current / 'ejemplo.txt'
 print(f'El path nuevo formado es \n {path}')
+
+# Usando atributos de la clase Path:
+# Atributo name
+# Retorna el nombre del archivo o directorio al que apunta el objeto Path
+print(f'home: {home.name}')
+print(f'current: {current.name}')
+print(f'path: {path.name}')
