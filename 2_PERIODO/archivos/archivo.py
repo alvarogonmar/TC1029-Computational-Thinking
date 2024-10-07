@@ -29,3 +29,9 @@ print(f'path: {path.name}')
 # atributo stem y suffix
 print(f'El nombre del archivo es {path.stem}')
 print(f'La extencion del archivo es: {path.suffix}')
+
+# Usando atributos de la clase Path:
+# Atributo parents:
+# Retorna una secuencia con los directorios padre del archivo
+parents_Directory = list(path.parents)
+print(f'Parents Directory: {parents_Directory}')
