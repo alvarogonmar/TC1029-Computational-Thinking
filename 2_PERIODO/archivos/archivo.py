@@ -54,3 +54,9 @@ print(f'El objeto apunta a un directorio?: {directory}')
 # Crear una nueva carpeta
 new_dir = current /'New_Folder'
 new_dir.mkdir(exist_ok= True)
+
+# Algo equivalente
+if not new_dir.exists():
+    new_dir.mkdir()
+
+
