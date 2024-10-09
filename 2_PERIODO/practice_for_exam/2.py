@@ -15,3 +15,7 @@
 
 option = int(input('Choose: 1-Feets. 2-Inches. 3-Yards. To cm'))
 value = float(input('Amount: '))
+
+def feet(value):
+    result = value * 30.48
+    print(result)
