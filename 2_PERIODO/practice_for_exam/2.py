@@ -23,3 +23,7 @@ def feet(value):
 def inches(value):
     result = value * 2.54
     print(result)
+
+def yards(value):
+    result = value * 91.44
+    print(result)
