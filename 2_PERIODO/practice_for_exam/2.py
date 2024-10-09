@@ -19,3 +19,7 @@ value = float(input('Amount: '))
 def feet(value):
     result = value * 30.48
     print(result)
+
+def inches(value):
+    result = value * 2.54
+    print(result)
