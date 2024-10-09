@@ -14,4 +14,8 @@ def cylinder_volume(radio, height):
     volume = round(((3.14*radio**2) * height),2)
     return volume
 
+radio = float(input('Radio: '))
+height = float(input('Height: '))
 
+print(f'The cylinder area is: {cylinder_area(radio=radio, height=height)}')
+print(f'The cylinder volume is: {cylinder_volume(radio=radio, height=height)}')
