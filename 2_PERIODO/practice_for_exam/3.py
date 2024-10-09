@@ -7,7 +7,11 @@
 #El radio del cilindro
 #La altura del cilindro
 
-def cylinder_area(radio, high):
-    
+def cylinder_area(radio, height):
+    area = round(((2*3.14*radio*height) + 2*3.14*radio**2),2)
+    return area
+def cylinder_volume(radio, height):
+    volume = round(((3.14*radio**2) * height),2)
+    return volume
 
-def cilinder_volume(radio, high):
+
