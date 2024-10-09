@@ -13,3 +13,4 @@
 #En caso de que el número de opción sea diferente a 1, 2, o 3 se desplegará el mensaje: Error.
 #En caso de que el valor a convertir sea 0 o menor se desplegará el mensaje: Error
 
+option = int(input('Choose: 1-Feets. 2-Inches. 3-Yards'))
