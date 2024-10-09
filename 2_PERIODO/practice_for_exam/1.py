@@ -10,5 +10,30 @@
 #Al ejecutar la operación se obtiene: 12 % 3 = 0
 #Al final pega tu código aquí, no olvides que debe estar bien identado y en la sintaxis adecuada de python
 
-def  fun_operations():
-    
+def  fun_operations(a, b=2, op=''):
+    if op == '+':
+        addition = a + b
+        print('The chosen operation is:  addition')
+        print(f'The result of addition {a}+{b} = {addition}')
+    elif op == '-':
+        subtraction = a - b
+        print('The chosen operation is: subtraction')
+        print(f'The result of subtraction {a}-{b} = {subtraction}')
+    elif op == '*':
+        multiplication = a * b
+        print('The chosen operation is: multiplication')
+        print(f'The result of multiplication {a}*{b} = {multiplication}')
+    elif op == '/':
+        division = a / b
+        print('The chosen operation is: division')
+        print(f'The result of the division {a}/{b} = {division}')
+    elif op == '**':
+        power = a ** b
+        print('The chosen operation is: power')
+        print(f'The result of the power {a}**{b} = {power}')
+    elif op == '%':
+        residue = a % b
+        print('The chosen operation is: residue')
+        print(f'The result of the residue {a}%{b} = {residue}')
+
+fun_operations()
