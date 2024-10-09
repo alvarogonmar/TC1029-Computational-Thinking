@@ -6,3 +6,8 @@
 #Entrada
 #El radio del cilindro
 #La altura del cilindro
+
+def cylinder_area(radio, high):
+    
+
+def cilinder_volume(radio, high):
