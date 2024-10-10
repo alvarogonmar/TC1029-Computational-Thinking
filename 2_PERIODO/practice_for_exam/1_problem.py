@@ -16,7 +16,30 @@ def add_contact(contacts):
     contacts[name] = number
 
 def find_contact(contacts):
-    pass
+    name = input('Name of the contact to find: ')
+    if name in contacts:
+        print(f'{name}: {contacts[name]}')
+    else:
+        print('Contact not found')
 
 def show_contact(contacts):
-    pass
+    if contacts:
+        for name, number in contacts.items():
+            print(f'{name}: {number}')
+    else:
+        print('You have 0 contacts')
+
+def contacts_list():
+    list1 = {}
+    while True:
+        option = int(input("\n1. Add new contact\n2. Find contact\n3. Show contacts\n4. Leave:\n"))
+        if option == 1:
+            add_contact(list1)
+        elif option == 2:
+            find_contact(list1)
+        elif option == 3:
+            show_contact(list1)
+        elif option == 4:
+            break
+
+contacts_list()
