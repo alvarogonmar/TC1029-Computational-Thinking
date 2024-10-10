@@ -21,3 +21,17 @@ def sold(sales):
     else:
         sales[product] = [amount, price]
 
+def total(sales):
+    total = 0
+    for product, information in sales.items():
+        amount, price = information
+        total += amount * price
+    return total
+
+def save_in_file(sales):
+    with open('sales.txt', 'w') as file:
+        for product, information in sales.items():
+            amount, price = information
+            file.write(f'Product: {product}, Amount: {amount}, Price: {price}\n')
+        file.write(f'\nTotal: {total}\n')
+    print('Sales saved in sales.txt')
