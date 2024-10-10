@@ -43,3 +43,19 @@ def contacts_list():
             break
 
 contacts_list()
+
+# ANOTHER FORM
+# contactos = {}
+# while True:
+#     accion = int(input('Que desea hacer? 1. agregar 2. buscar 3. mostrar'))
+#     if accion == 1:
+#         contacto = input('Ingrese el contacto: ')
+#         numero = int(input('Ingrese el numero: '))
+#         print('Contacto agregado')
+#         contactos[contacto] = numero
+#     elif accion == 2:
+#         contacto = input('Ingrese el nombre del contacto que desea buscar: ')
+#         print(f'{contacto}: {contactos[contacto]}')  
+#     elif accion == 3:
+#         for nombre, numero in contactos.items():
+#             print(f'Nombre: {nombre}, numero {numero}') 
