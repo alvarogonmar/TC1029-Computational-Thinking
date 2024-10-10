@@ -9,3 +9,14 @@
 # Al agregar un contacto, el usuario debe ingresar el nombre y el número de teléfono, que se guardarán en un diccionario.
 # Al buscar un contacto, el programa deberá solicitar el nombre y mostrar el número si está en la agenda.
 # Al mostrar, se deben listar todos los contactos almacenados.
+
+def add_contact(contacts):
+    name = input('Name of the new contact: ')
+    number = int(input('Number of your new contact: '))
+    contacts[name] = number
+
+def find_contact(contacts):
+    pass
+
+def show_contact(contacts):
+    pass
