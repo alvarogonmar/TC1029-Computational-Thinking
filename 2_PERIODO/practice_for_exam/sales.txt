@@ -1,0 +1,3 @@
+Product: mouse, Amount: 1, Price: 1.00
+
+Total: 1.00
